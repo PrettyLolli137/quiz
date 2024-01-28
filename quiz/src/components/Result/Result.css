@@ -2,25 +2,25 @@
 
 .result {
     text-align: center;
-  }    
-  
-  button {
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    border-radius: 30px;
-    border: 0;
-    padding: 15px 30px;
-    font-size: 20px;
+}
+
+button {
+    font-weight     : bold;
+    font-family     : 'Nunito', sans-serif;
+    border-radius   : 30px;
+    border          : 0;
+    padding         : 15px 30px;
+    font-size       : 20px;
     background-color: #ff006e;
-    color: #fff;
-    margin-top: 20px;
-    cursor: pointer;
-  }
+    color           : #fff;
+    margin-top      : 20px;
+    cursor          : pointer;
+}
 
-  h2 {
+h2 {
     margin-bottom: 0;
-  }
+}
 
-  img {
+img {
     width: 150px;
-  }
+}

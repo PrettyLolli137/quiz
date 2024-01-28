@@ -57,9 +57,9 @@ function App() {
     console.log(step, index);
     setStep(step + 1);
 
-    if (index === question.correct){
+    if (index === question.correct) {
       setCorrect(correct + 1);
-    } 
+    }
   };
 
   return (
@@ -72,7 +72,7 @@ function App() {
           percentTarget={percentTarget}
         />
       ) : (
-        <Result correct={correct} totalQuestions={questions.length}/>
+        <Result correct={correct} totalQuestions={questions.length} />
       )}
     </div>
   );
