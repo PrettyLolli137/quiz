@@ -1,34 +1,38 @@
+/*
 .App {
     width           : 500px;
     border-radius   : 30px;
     padding         : 40px;
     background-color: #fff;
     position        : relative;
+    box-shadow: 17px 32px 22px 6px rgba(0,0,0,0.1);
+}
+*/
+
+.App {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 5%;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 17px 32px 22px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Медиа-запрос для экранов от 320 до 767 пикселей */
+@media (min-width: 320px) and (max-width: 767px) {
+    .App {
+        width: 80%;
+    }
+}
+
+/* Медиа-запрос для экранов от 768 до 1280 пикселей */
+@media (min-width: 768px) and (max-width: 1280px) {
+    .App {
+        width: 80%;
+    }
 }
 
 
-&:before,
-&:after {
-    content                   : '';
-    display                   : block;
-    height                    : 50px;
-    border-bottom-left-radius : 30px;
-    border-bottom-right-radius: 30px;
-    position                  : absolute;
-    left                      : 50%;
-    transform                 : translateX(-50%);
-}
 
-&:before {
-    width           : 95%;
-    bottom          : -10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    z-index         : 0;
-}
-
-&:after {
-    width           : 90%;
-    bottom          : -20px;
-    background-color: rgba(255, 255, 255, 0.3);
-    z-index         : 1;
-}
