@@ -1,3 +1,3 @@
 # Пет проект викторина
 
-Ссылка на проект : <https://prettylolli137.github.io/quiz/>
+Ссылка на проект : <https://nicklevi1337.github.io/quiz/>
